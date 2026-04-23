@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    /* border: solid; */
+    height: 80px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+.logo{
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    }
+
+.navbar{
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+a:hover {
+    color:rgb(255, 0, 0);
+    transition-property: all;
+    /* transition-timing-function:ease; */
+    /* transition-delay: 1s; */
+}
+
+
+
+
+
+section{
+    /* border: 2px solid black; */
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.bannerBox{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 700px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.banner-img {
+    height: 500px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+.serve{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.services{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.webDev{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.webDev:hover{
+    background-color: rgb(216, 79, 79);
+    color: white;
+    transition-property: all;
+    transition-timing-function:step-start;
+    
+}
+.appDev{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.graphic{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.techHead{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tech{
+    height: 100px;
+    width: 100px;
+}
+
+.technology{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.getInTouch{
+    text-align: center;
+    /* border: 2px solid black; */
+    padding-top: 10px;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact{
+    /* display: inline-block; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.connect{
+    /* display: inline-block; */
+    
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    max-width: 464px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    padding: 10px;
+    width: 100%;
+    max-width: 464px;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    height: 44px;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.form-group input {
+    display:inline-block
+
+    
+
+}
+
+
+
+
+
+
+footer{
+    min-height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    padding: 10px;
+    text-align: center;
+}
+
+/* --- Responsive CSS --- */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    header {
+        height: auto;
+        padding-bottom: 10px;
+        position: static;
+    }
+
+    ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    li {
+        margin: 5px 10px;
+    }
+
+    .bannerBox {
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+        padding: 30px 10px;
+        gap: 30px;
+    }
+
+    .banner-img {
+        height: auto;
+        max-height: 300px;
+    }
+
+    .webDev, .appDev, .graphic {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .technology {
+        padding: 0 20px;
+    }
+    
+    .contact {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
