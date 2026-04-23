@@ -1,0 +1,53 @@
+//  app.js file  in src folder we create server and export 
+
+const express = require("express");
+const app = express(); // instance of express server
+
+app.use(express.json())// use to make readable format for express which is not directly readable (postman body)
+
+
+// create api for send data from front to server
+
+const notes = []
+app.post('/notes', (req,res) => {
+    console.log(req.body)
+    notes.push(req.body)
+    res.status(201).json({message: "note created"})
+    // 201 used for create new resorce in backend
+})
+
+// create api for get data from server to client
+
+app.get("/notes", (req,res) => {
+    res.status(200).json({
+        message: "note fatch successfull",
+        notes: notes
+    })
+})
+
+//create api for delete data 
+
+app.delete("/notes/:index", (req,res) =>{ // : k ana k badd sb dynamic h or usse phele static
+
+    const index = req.params.index
+
+    delete notes[ index ]
+
+    res.status(200).json({
+        message: "note deteted successful"
+    })
+})
+
+//CREATE api for update 
+
+app.patch("/notes/:index", (req,res) =>{
+    const index = req.params.index
+    const discription = req.body.discription
+    notes[ index].discription = discription
+
+    res.status(200).json({
+        message : "update successfull"
+    })
+})
+
+module.exports = app;
