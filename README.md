@@ -1,8 +1,4 @@
 
-Here’s a refined, recruiter-friendly **GitHub README** that clearly showcases your frontend + backend skills, with strong structure, clarity, and impact for college placements:
-
----
-
 # 🚀 Full-Stack Practice Projects
 
 This repository highlights my hands-on experience with **core web development concepts**, covering both frontend and backend technologies. The projects focus on understanding **how data flows between client and server**, along with building responsive user interfaces and RESTful APIs.
