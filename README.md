@@ -1,37 +1,37 @@
 
-# 🚀 Full-Stack Practice Projects
+#  Full-Stack Practice Projects
 
 This repository highlights my hands-on experience with **core web development concepts**, covering both frontend and backend technologies. The projects focus on understanding **how data flows between client and server**, along with building responsive user interfaces and RESTful APIs.
 
 ---
 
-## 📌 Project 1: xNote (Backend)
+##  Project 1: xNote (Backend)
 
-### 🔹 Overview
+###  Overview
 
 **xNote** is a backend REST API project that allows users to manage notes with full CRUD functionality.
 
-### 🔹 Tech Stack
+###  Tech Stack
 
 * **Node.js**
 * **Express.js**
 * **MongoDB**
 
-### 🔹 Core Features
+###  Core Features
 
-* ✍️ Create notes
-* 📖 Retrieve notes
-* ✏️ Update notes
-* ❌ Delete notes
+*  Create notes
+*  Retrieve notes
+*  Update notes
+*  Delete notes
 
-### 🔹 API Methods Used
+###  API Methods Used
 
 * `GET` – Fetch data
 * `POST` – Create data
 * `PATCH` – Update data
 * `DELETE` – Remove data
 
-### 🔹 Concepts Implemented
+###  Concepts Implemented
 
 * REST API design
 * HTTP protocol handling
@@ -40,7 +40,7 @@ This repository highlights my hands-on experience with **core web development co
 * Package/module management (npm)
 * Server-client data flow
 
-### 🔹 Learning Outcome
+###  Learning Outcome
 
 * Understood how backend systems work
 * Built scalable API structure
@@ -48,24 +48,24 @@ This repository highlights my hands-on experience with **core web development co
 
 ---
 
-## 🔄 Data Flow Understanding
+##  Data Flow Understanding
 
 These projects helped me understand:
 
-* 📤 How data moves from client → server (via HTTP requests)
-* 📥 How server processes and sends responses
-* 🔗 Integration between frontend UI and backend APIs
+*  How data moves from client → server (via HTTP requests)
+*  How server processes and sends responses
+*  Integration between frontend UI and backend APIs
 
 ---
 
 
-## 📌 Project 2: Landing Page (Frontend)
+##  Project 2: Landing Page (Frontend)
 
-### 🔹 Overview
+###  Overview
 
 A responsive landing page built using **HTML and CSS**, focusing on strong fundamentals and layout design.
 
-### 🔹 Key Concepts Applied
+###  Key Concepts Applied
 
 **HTML**
 
@@ -83,14 +83,14 @@ A responsive landing page built using **HTML and CSS**, focusing on strong funda
 * Display and Position properties
 * Media Queries for mobile responsiveness
 
-### 🔹 Features
+###  Features
 
-* 📱 Fully responsive design
-* 🧩 Clean and structured layout
-* 🎯 User-friendly form section
-* ⚡ Optimized styling using reusable classes
+*  Fully responsive design
+*  Clean and structured layout
+*  User-friendly form section
+*  Optimized styling using reusable classes
 
-### 🔹 Learning Outcome
+###  Learning Outcome
 
 Gained a strong understanding of:
 
@@ -100,7 +100,7 @@ Gained a strong understanding of:
 
 ---
 
-## 💡 Skills Highlight
+##  Skills Highlight
 
 * Frontend: HTML, CSS (Flexbox, Responsive Design)
 * Backend: Node.js, Express.js, MongoDB
