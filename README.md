@@ -5,6 +5,24 @@ This repository highlights my hands-on experience with **core web development co
 
 ---
 
+These projects demonstrate my ability to:
+
+* Build responsive user interfaces
+* Develop backend APIs from scratch
+* Understand full-stack data flow
+* Apply core concepts without relying heavily on frameworks
+  
+---
+
+##  Skills Highlight
+
+* Frontend: HTML, CSS (Flexbox, Responsive Design)
+* Backend: Node.js, Express.js, MongoDB
+* Core Concepts: REST APIs, CRUD operations, HTTP methods
+* Development Tools: Git, GitHub, Postman
+
+--
+
 ##  Project 1: xNote (Backend)
 
 ###  Overview
@@ -90,7 +108,7 @@ A responsive landing page built using **HTML and CSS**, focusing on strong funda
 *  User-friendly form section
 *  Optimized styling using reusable classes
 
-###  Learning Outcome
+  ###  Learning Outcome
 
 Gained a strong understanding of:
 
@@ -98,22 +116,6 @@ Gained a strong understanding of:
 * Styling components with modern CSS
 * Creating responsive UI without frameworks
 
----
 
-##  Skills Highlight
-
-* Frontend: HTML, CSS (Flexbox, Responsive Design)
-* Backend: Node.js, Express.js, MongoDB
-* Core Concepts: REST APIs, CRUD operations, HTTP methods
-* Development Tools: Git, GitHub, npm
-
---
-
-These projects demonstrate my ability to:
-
-* Build responsive user interfaces
-* Develop backend APIs from scratch
-* Understand full-stack data flow
-* Apply core concepts without relying heavily on frameworks
 
 
